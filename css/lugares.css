@@ -1,0 +1,30 @@
+/* DOCUMENTO CSS*/
+* {margin: 0;}
+
+body {background-color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+h1 {text-align: center;
+font-size: 2em;
+background-color: rgb(220, 157, 20);
+padding:8px 0px ;}
+
+h2 {text-decoration:underline;
+padding-bottom: 8px ; ;
+font: size 1.4em; ;
+margin:0px auto ;
+}
+
+.sitios { padding: 16px 0px;
+        width: 70%;
+        margin: 0px auto;
+         border-bottom:#4b712e solid 4px;}
+
+         div p {padding: 16px;
+line-height: 150%; 
+font-size: 18px;}
+
+         div img {margin: 16px auto;
+        display: block;
+         width: 350px ;}
+

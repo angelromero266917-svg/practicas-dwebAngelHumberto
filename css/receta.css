@@ -1,0 +1,82 @@
+/*DOCUMENTO CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.cabecera {text-align: center;
+font-size: 3em;
+background-color: pink;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+
+body {background-color: papayawhip;}
+
+h1 {text-align: center;
+font: size 7px;;
+background-color: yellow;
+padding:8px 0px ;  
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+h2 {text-decoration:underline;
+padding-bottom: 8px ; ;
+font: size 1.4em; ;
+margin:0px auto ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.subtitulo {text-align: center;
+background-color: chocolate;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.ingredients {
+background-color: goldenrod;
+font-family: 'Times New Roman', Times, serif;}
+
+.Utensilios {
+background-color: goldenrod;
+font-family: 'Times New Roman', Times, serif;}
+
+.Instrucciones {
+background-color: goldenrod;
+font-family: 'Times New Roman', Times, serif;}
+
+.images {width: 100%;
+                  min-height: 1px;
+                  padding: 60px 0px;
+                background-color: saddlebrown;
+            border-radius: 8px;
+            display: flex;
+        justify-content: center;}
+
+               
+
+.Autor {background-color: violet;}
+
+
+.video {background-color: red;
+text-align: center;}
+
+.vidio {text-align: center;}
+
+
+@media only screen and  (min-width:1380px) {
+
+            h1 {font-size: 3em;
+            background-size: 5em;}
+            h2 {font-size: 3em;}
+
+
+.cabecera{width: 90%;}
+
+          }
+          /*BREAKPOINT 1280*/
+          @media only screen and  (min-width:768px) {}
+          .cabecera {width: 80%;
+                     flex-direction: row;
+                     justify-content: space-between;}
+
+        .images {width: 100%;}
+
+        .items {height: 2%;}
+
+        .vidio {width: 50%;}
+        
+        

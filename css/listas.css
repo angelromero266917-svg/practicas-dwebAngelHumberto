@@ -1,0 +1,39 @@
+/* DOCUMENTO CSS*/
+* {margin: 0;}
+
+body {font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.cabecera{width: 100%;}
+
+.cabecera i {text-align: center;}
+
+h1 {text-align: center;
+font-size:2em;
+background-color: aqua;
+padding:8px 0px ;   }
+
+h2 {text-decoration: underline;
+     padding-bottom: 8px;
+     font-size: 1.4em; }
+
+header.cabecera {background-color: brown;
+            padding: 16px 0px;
+             margin-bottom: 16px ;}
+
+.temas { padding: 16px 0px;
+        width: 70%;
+        margin: 0px auto;
+         border-bottom:#4b712e solid 4px;}
+
+.temas ol, .temas ul { padding-bottom: 16px;}
+
+.temas p { line-height: 180%; 
+           padding-bottom: 24px; }
+
+.pie  {text-align: center;
+ background-color: green;
+margin-top: 24px;
+color: whitesmoke;
+padding: 16px 0px;} 
+
+#tablas {border-bottom:none; }
